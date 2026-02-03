@@ -18,3 +18,6 @@ lst = ["A", "B","C","D"]
 for i in lst:
     print(i)
 
+
+for i in range(5):
+    print("Range function :", i)
