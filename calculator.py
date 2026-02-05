@@ -2,8 +2,8 @@
 import emoji
 print("============== Start Calculation ============== ")
 print("")
-a =int(input("Enter value of A : "))
-b =int(input("Enter value of B : "))
+a =int(input("Enter value of A :\n "))
+b =int(input("Enter value of B :\n "))
 
 while True:
     print("============== Menu ==============")
