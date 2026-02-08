@@ -1,4 +1,6 @@
+"""
 # Write a simple calculator program.
+"""
 import emoji
 print("============== Start Calculation ============== ")
 print("")
@@ -11,13 +13,15 @@ while True:
     method_type  = input("Which operation do you want to execute :")
     if method_type == '1':
         print(f"Addition of {a} and {b} is : {a+b}")
-    if method_type == '2':
+    elif method_type == '2':
         print(f"Substraction of {a} and {b} is : {a-b}")
-    if method_type == '3':
+    elif method_type == '3':
         print(f"Multiplication of {a} and {b} is : {a*b}")
-    if method_type == '4':
+    elif method_type == '4':
         print(f"Division of {a} and {b} is : {a/b}")
-    
+    else:
+        print("\n invalid choice EXIT \n")
+        break
     cont = input("Do you want to continue (Y/N)").upper()
     if cont == 'Y':
         check = input(f"Do you want to continue with same numbers is {a} and {b} (Y/N)").upper()
