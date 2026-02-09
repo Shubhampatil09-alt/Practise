@@ -4,8 +4,8 @@
 import emoji
 print("============== Start Calculation ============== ")
 print("")
-a =int(input("Enter value of A :\n "))
-b =int(input("Enter value of B :\n "))
+a =float(input("Enter value of A :\n "))
+b =float(input("Enter value of B :\n "))
 
 while True:
     print("============== Menu ==============")
@@ -32,4 +32,4 @@ while True:
         print("Thank you share your exeperience with us.\n")
         print(emoji.emojize(":grinning_face_with_big_eyes:"))
         break
-
+# =========================================================================================================
