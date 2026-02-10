@@ -13,3 +13,12 @@ if temp > 25 or temp <0 or is_rain:
 else:
     print("We will do event")
 #------------------------------------------------------------------------------
+#OR
+temp = 45
+is_sunny = False
+if temp > 25 and is_rain:
+    print("Its cloudy")
+else:
+    print("Its HOT")
+    
+#============================================================================
