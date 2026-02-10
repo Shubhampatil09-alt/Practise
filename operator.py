@@ -12,3 +12,4 @@ if temp > 25 or temp <0 or is_rain:
     print("Event cancel")
 else:
     print("We will do event")
+#------------------------------------------------------------------------------
